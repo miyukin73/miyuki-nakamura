@@ -1,0 +1,6 @@
+#led_class.py
+import RPi.GPIO as GPIO
+
+class Led(object):
+  def __init__(self):
+    GPIO
