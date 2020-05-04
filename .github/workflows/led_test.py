@@ -1,17 +1,18 @@
 #led_test.py
 import led_class
+from time import sleep
 
 #インスタンス生成
-led=led_class.Led()
+LED=led_class.Led()
 
 try:
     while True:
-        led_on(self)
+        LED.led_on()
         sleep(0.5)
-        led_off(self)
+        LED.led_off()
         sleep(0.5)
 
 except KeyboardInterrupt:
     pass
 
-GPIO.cleanup()
+cleanup()
